@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "625c3985af324cb1c93adaf5",
+    "name": "Carpeting"
+  },
+  {
+    "_id": "625c3985af324cb1c93adaf7",
+    "name": "Electricity"
+  },
+  {
+    "_id": "625c3985af324cb1c93adaf9",
+    "name": "Furnishing"
+  },
+  {
+    "_id": "625c3985af324cb1c93adafb",
+    "name": "Gardening"
+  },
+  {
+    "_id": "625c3985af324cb1c93adafd",
+    "name": "InteriorDesign"
+  },
+  {
+    "_id": "625c3985af324cb1c93adaff",
+    "name": "Logistics"
+  },
+  {
+    "_id": "625c3985af324cb1c93adb01",
+    "name": "Painting"
+  },
+  {
+    "_id": "625c3985af324cb1c93adb03",
+    "name": "Parquet"
+  },
+  {
+    "_id": "625c3985af324cb1c93adb05",
+    "name": "Piping"
+  },
+  {
+    "_id": "625c3985af324cb1c93adb07",
+    "name": "Plumbing"
+  },
+  {
+    "_id": "625c3985af324cb1c93adb09",
+    "name": "Transportation"
+  },
+  {
+    "_id": "625c3985af324cb1c93adb0b",
+    "name": "Windows"
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "_id": "625c1804d4ed696f4d7cfbfc",
+    "name": "AssistHome",
+    "city": "Munich",
+    "specialties": [
+      {
+        "name": "Plumbing",
+        "_id": "625c3985af324cb1c93adb07"
+      },
+      {
+        "name": "Electricity",
+        "_id": "625c3985af324cb1c93adaf7"
+      },
+      {
+        "name": "Parquet",
+        "_id": "625c3985af324cb1c93adb03"
+      },
+      {
+        "name": "Painting",
+        "_id": "625c3985af324cb1c93adb01"
+      },
+      {
+        "name": "Windows",
+        "_id": "625c3985af324cb1c93adb0b"
+      },
+      {
+        "name": "Piping",
+        "_id": "625c3985af324cb1c93adb05"
+      }
+    ]
+  },
+  {
+    "_id": "625c1804d4ed696f4d7cfc04",
+    "name": "Building101",
+    "city": "Berlin",
+    "specialties": [
+      {
+        "name": "Plumbing",
+        "_id": "625c3985af324cb1c93adb07"
+      },
+      {
+        "name": "Windows",
+        "_id": "625c3985af324cb1c93adb0b"
+      },
+      {
+        "name": "Piping",
+        "_id": "625c3985af324cb1c93adb05"
+      }
+    ]
+  },
+  {
+    "_id": "625c1804d4ed696f4d7cfc09",
+    "name": "Check24",
+    "city": "Munich",
+    "specialties": [
+      {
+        "name": "Electricity",
+        "_id": "625c3985af324cb1c93adaf7"
+      },
+      {
+        "name": "Painting",
+        "_id": "625c3985af324cb1c93adb01"
+      },
+      {
+        "name": "Windows",
+        "_id": "625c3985af324cb1c93adb0b"
+      },
+      {
+        "name": "Carpeting",
+        "_id": "625c3985af324cb1c93adaf5"
+      },
+      {
+        "name": "InteriorDesign",
+        "_id": "625c3985af324cb1c93adafd"
+      }
+    ]
+  },
+  {
+    "_id": "625c1804d4ed696f4d7cfc10",
+    "name": "FurnishNow",
+    "city": "Frankfurt",
+    "specialties": [
+      {
+        "name": "Parquet",
+        "_id": "625c3985af324cb1c93adb03"
+      },
+      {
+        "name": "Painting",
+        "_id": "625c3985af324cb1c93adb01"
+      }
+    ]
+  },
+  {
+    "_id": "625c1804d4ed696f4d7cfc14",
+    "name": "Home2Home",
+    "city": "Hamburg",
+    "specialties": [
+      {
+        "name": "Transportation",
+        "_id": "625c3985af324cb1c93adb09"
+      },
+      {
+        "name": "Logistics",
+        "_id": "625c3985af324cb1c93adaff"
+      }
+    ]
+  },
+  {
+    "_id": "625c1804d4ed696f4d7cfc18",
+    "name": "MullerBrothers",
+    "city": "Berlin",
+    "specialties": [
+      {
+        "name": "Electricity",
+        "_id": "625c3985af324cb1c93adaf7"
+      },
+      {
+        "name": "Painting",
+        "_id": "625c3985af324cb1c93adb01"
+      },
+      {
+        "name": "Gardening",
+        "_id": "625c3985af324cb1c93adafb"
+      }
+    ]
+  },
+  {
+    "_id": "625c1804d4ed696f4d7cfc1d",
+    "name": "Solid Foundation",
+    "city": "Achen",
+    "specialties": [
+      {
+        "name": "Plumbing",
+        "_id": "625c3985af324cb1c93adb07"
+      },
+      {
+        "name": "Electricity",
+        "_id": "625c3985af324cb1c93adaf7"
+      },
+      {
+        "name": "Painting",
+        "_id": "625c3985af324cb1c93adb01"
+      },
+      {
+        "name": "Windows",
+        "_id": "625c3985af324cb1c93adb0b"
+      },
+      {
+        "name": "Piping",
+        "_id": "625c3985af324cb1c93adb05"
+      },
+      {
+        "name": "Carpeting",
+        "_id": "625c3985af324cb1c93adaf5"
+      },
+      {
+        "name": "Furnishing",
+        "_id": "625c3985af324cb1c93adaf9"
+      },
+      {
+        "name": "InteriorDesign",
+        "_id": "625c3985af324cb1c93adafd"
+      }
+    ]
+  }
+]

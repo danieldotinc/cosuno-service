@@ -1,0 +1,7 @@
+{
+  "jwtPrivateKey": "unsecureKey",
+  "db": "mongodb://localhost/cosuno",
+  "port": "3900",
+  "requiresAuth": true,
+  "isDbEnabled": true
+}
