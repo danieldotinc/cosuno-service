@@ -3,7 +3,7 @@ import Joi from 'joi';
 import bcrypt from 'bcrypt';
 import _ from 'lodash';
 
-import User from '../models/User';
+import userRepository from '../repository/user';
 import validate from '../middleware/validate';
 
 const router = express.Router();
@@ -18,7 +18,7 @@ const validator = (user: User) => {
 };
 
 router.post('/', [validate(validator)], async (req: express.Request, res: express.Response) => {
-  let user = await User.findOne({ email: req.body.email });
+  let user = await userRepository.find(req.body.email);
   if (!user) return res.status(400).send('Invalid email or password.');
 
   const validPassword = await bcrypt.compare(req.body.password, user.password);
