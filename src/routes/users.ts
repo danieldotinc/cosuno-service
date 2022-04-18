@@ -5,6 +5,7 @@ import _ from 'lodash';
 import User, { validator } from '../models/User';
 import auth from '../middleware/auth';
 import validate from '../middleware/validate';
+import logger from '../logger';
 
 const router = express.Router();
 
@@ -15,6 +16,7 @@ router.get('/me', auth, async (req: express.Request, res: express.Response) => {
 });
 
 router.post('/', [validate(validator)], async (req: express.Request, res: express.Response) => {
+  logger.info('Request for creating a user: ' + req.body.email);
   let user = await User.findOne({ email: req.body.email });
   if (user) return res.status(400).send('User already registered.');
 
